@@ -24,5 +24,7 @@ DB_PASSWORD=laravel_pass
 使用技術（実行環境）  
 ・PHP8.1-fpm  
 ・Laravel8.83.27  
+・MySQL8.0.26  
+
 
 
