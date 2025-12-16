@@ -26,5 +26,7 @@ DB_PASSWORD=laravel_pass
 ・Laravel8.83.27  
 ・MySQL8.0.26  
 
+テーブル設計  
+
 
 
