@@ -1,0 +1,38 @@
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+    padding: 0 30px;
+    background-color: #000;
+    color: #fff;
+}
+
+.header-ttl {
+    font-size: 24px;
+    width: 200px;
+    cursor: pointer;
+}
+
+.header-nav-list {
+    display: flex;
+    font-weight: bold;
+}
+
+.header-nav-item:not(:last-child) {
+    margin-right: 30px;
+}
+
+.search-box {
+    width: 300px;
+    height: 30px;
+}
+
+.button {
+    cursor: pointer;
+}

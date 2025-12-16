@@ -1,0 +1,62 @@
+.staff-list{
+    margin: 0 auto;
+        padding: 30px 15px;
+        max-width: 1230px;
+        background-color: #f5f5f5;
+        min-height: 100vh;
+}
+
+.staff-list__title{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 24px;
+    padding-left: 200px;
+    font-size: 28px;
+}
+
+.staff-table{
+    width: 65%;
+    margin: 40px auto;
+    background-color: #fff;
+    border-radius: 10px;
+    border: 1px solid #e0e0e0;
+    overflow: hidden;
+    text-align: center;
+    padding: 10px 30px;
+    margin-top: 10px;
+    height: 50px;
+    border-collapse: collapse;
+}
+
+.staff-table thead{
+    background: #fff;
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 16px;
+    border: 1px solid #e0e0e0;
+    color: #555555;
+}
+
+.attendance-table__date {
+    border-width: 1px 0;
+    border-style: solid;
+    border-color: #e0e0e0;
+    font-weight: lighter;
+}
+
+.staff-table th,
+.staff-table td{
+    padding: 12px 16px;
+    font-size: 14px;
+}
+
+
+.staff-table__link{
+    font-weight: bold;
+    font-size: 13px;
+}
+
+.staff-table__link:hover{
+    text-decoration: underline;
+}

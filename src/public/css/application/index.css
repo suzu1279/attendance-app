@@ -1,0 +1,98 @@
+.application-content{
+    margin: 0 auto;
+    padding: 30px 15px;
+    max-width: 1230px;
+    background-color: #f5f5f5;
+    height: 680px;
+}
+
+.page-title{
+    padding: 10px;
+    border-left: 6px solid #000;
+    width: 200px;
+    margin: 24px 120px;
+}
+
+.application-tabs{
+    display: inline-flex;
+    gap: 4px;
+    padding: 4px;
+    cursor: pointer;
+    margin: 10px 120px;
+    border-bottom: 1px solid #000;
+    width: 80%;
+}
+
+.application-tabs .tab{
+    display: inline;
+    align-items: center;
+    justify-content: center;
+    min-width: 96px;
+    padding: 6px 14px;
+    font-size: 14px;
+    font-weight: 500;
+    color: #4b5563;
+    text-decoration: none;
+}
+
+.application-tabs .tab:hover{
+    color: #111827;
+}
+
+.application-tabs .tab.is-active{
+    background-color: #fff;
+    color: #111827;
+    box-shadow: 0 1px 3px rgba(15,23,43,0.16);
+    cursor: pointer;
+}
+
+.table-wrapper{
+    text-align: center;
+    width: 80%;
+    margin: 24px auto;
+    background-color: #fff;
+    border-radius: 8px;
+    border: 1px solid #e5e7eb;
+    overflow: hidden;
+    box-shadow: 0 1px 2px rgba(15,23,42,0.06);
+}
+
+.table{
+    width: 100%;
+    border-collapse: collapse;
+    table-layout: fixed;
+    font-size: 14px;
+}
+
+.table-header{
+    padding: 10px 12px;
+    text-align: left;
+    font-weight: 600;
+    color: #4b5563;
+    border-bottom: 1px solid #e5e7eb;
+    white-space: nowrap;
+}
+
+.table tbody tr{
+    border-bottom: 1px solid #f3f4f6;
+}
+
+.table tbody tr:last-child{
+    border-bottom: none;
+}
+
+.table tbody tr:hover{
+    background-color: #f9fafb;
+}
+
+.table td{
+    padding: 9px 12px;
+    color: #111827;
+    vertical-align: middle;
+    word-break: break-all;
+}
+
+.table-header__reason,
+.table td.col-reason{
+    width: 28%;
+}
