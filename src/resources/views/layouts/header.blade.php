@@ -34,6 +34,7 @@
                     <form class="form" action="{{ route('logout') }}" method="post">
                         @csrf
                         <button class="button">ログアウト</button>
+                    </form>
                 </li>
                 @endif
             </ul>
